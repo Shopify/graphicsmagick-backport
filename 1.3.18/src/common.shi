@@ -1,0 +1,18 @@
+# -*- shell-script -*-
+# Copyright (C) 2012 GraphicsMagick Group
+# Definitions of optional features and configuration values for this build.
+# Intended for use by test scripts.
+MAGICK_FEATURES='BZLIB JNG JP2 JPEG LCMS LZMA PNG TIFF TTF WMF X XML ZLIB'
+top_srcdir='/root/Downloads/graphicsmagick'
+top_builddir='/root/Downloads/graphicsmagick'
+
+set -a
+GM="${MEMCHECK} /root/Downloads/graphicsmagick/utilities/gm"
+LD_LIBRARY_PATH="/root/Downloads/graphicsmagick/magick/.libs:${LD_LIBRARY_PATH}"
+
+MAGICK_CODER_MODULE_PATH='/root/Downloads/graphicsmagick/coders'
+MAGICK_CONFIGURE_PATH='/root/Downloads/graphicsmagick/config:/root/Downloads/graphicsmagick/config'
+MAGICK_FILTER_MODULE_PATH='/root/Downloads/graphicsmagick/filters'
+
+PATH="/root/Downloads/graphicsmagick/utilities:${PATH}"
+set +a

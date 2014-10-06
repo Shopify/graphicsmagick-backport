@@ -18,7 +18,7 @@ To install, use `sudo make install`.
 
 ## License
 
-GraphicsMagick is licensed under the MIT License. See [http://www.graphicsmagick.org/Copyright.html].
+GraphicsMagick is licensed under the MIT License. See http://www.graphicsmagick.org/Copyright.html.
 
 ## Precompiled Binary
 

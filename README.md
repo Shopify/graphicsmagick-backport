@@ -1,4 +1,4 @@
-# Graphicsmagick 1.3.18 Binary for Ubuntu 12.04 LTS
+# Graphicsmagick 1.3.18 backport for Ubuntu 12.04 LTS
 
 A backport of [GraphicsMagick](http://www.graphicsmagick.org/) version 1.3.18 for Ubuntu 12.04. GraphicsMagick 1.3.18 includes support for the `-auto-orient` flag.
 
